@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   #gem.add_development_dependency 'activesupport', ['~> 3.2']
   #gem.add_development_dependency 'tilt', ['~> 1.4']
   #gem.add_development_dependency 'benchmark-ips'
-  #gem.add_development_dependency 'builder'
+  gem.add_development_dependency 'builder'
 
   gem.add_dependency 'ox', ['~> 2.8.2']
   gem.add_dependency 'docile', ['~> 1.2.0']
