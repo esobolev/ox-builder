@@ -18,15 +18,15 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^exe/}) { |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency "bundler", "~> 1.11"
-  gem.add_development_dependency "rake", "~> 10.0"
-  gem.add_development_dependency "rspec", "~> 3.0"
-  gem.add_development_dependency 'actionpack', ['~> 3.2']
-  gem.add_development_dependency 'activesupport', ['~> 3.2']
-  gem.add_development_dependency 'tilt', ['~> 1.4']
-  gem.add_development_dependency 'benchmark-ips'
-  gem.add_development_dependency 'builder'
+  #gem.add_development_dependency "bundler", "~> 1.11"
+  #gem.add_development_dependency "rake", "~> 10.0"
+  #gem.add_development_dependency "rspec", "~> 3.0"
+  #gem.add_development_dependency 'actionpack', ['~> 3.2']
+  #gem.add_development_dependency 'activesupport', ['~> 3.2']
+  #gem.add_development_dependency 'tilt', ['~> 1.4']
+  #gem.add_development_dependency 'benchmark-ips'
+  #gem.add_development_dependency 'builder'
 
   gem.add_dependency 'ox', ['~> 2.8.2']
-  gem.add_dependency 'docile', ['~> 1.1.5']
+  gem.add_dependency 'docile', ['~> 1.2.0']
 end
